@@ -1,7 +1,7 @@
 import CategoryItem from '../category-item/category-item.component';
-import './categories-menu.syles.scss';
+import './directory.styles.scss';
 
-const CategoriesMenu = ({categories}) => {
+const Directory = ({categories}) => {
     return (
         <div className="categories-container">
             {categories.map((category) => (
@@ -11,4 +11,4 @@ const CategoriesMenu = ({categories}) => {
     );
 }
 
-export default CategoriesMenu;
+export default Directory;
